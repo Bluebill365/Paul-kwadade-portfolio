@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Paul Kwadade, a software developer with experience in frontend and backend development.">
+    <meta name="keywords" content="software developer, portfolio, Paul Kwadade, frontend, backend, web development">
+    <meta name="author" content="Paul Kwadade">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+<body>
+
+    <nav id="main-nav">
+        <div class="logo">Paul Kwadade</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Feedback">Feedback</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="chessburger-nav">
+        <div class="logo">Paul kwadade</div>
+        <div class="chessburger-menu">
+            <div class="chessburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Feedback" onclick="toggleMenu()">Feedback</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Profile">
+        <div class="section__pic-container">
+            <img src="assets/Screenshot from 2025-01-19 00-35-58.png" alt="Profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Paul Kwadade</h1>
+            <p class="section__text__p2">Software developer.</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CV_TEMPLATE_0004.docx')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#Contact'">Contact Info</button>
+            </div>
+        <div class="social-container">
+            <img src="assets/github.png" alt="Github-profile" class="icon" onclick="location.href='https://github.com/Bluebill365'" />
+            <img src="assets/linkedin.webp" alt="linkedin-profile" class="icon" onclick="location.href='https://linkedin.com/'" />
+            </div>
+        </div>
+    </section>
+
+    <section id="About">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">Get to know more</h1>
+
+        <div class="section-container">
+            <div class="section__pic-container">
+            <img src="./assets/Screenshot from 2025-01-19 00-35-58.png" alt="Profile-pic" class="About-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/badge.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>1+ years <br />Software development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/Education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree<br /></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hello! I’m a passionate and detail-oriented software developer with over 1+ years of experience in the IT industry. 
+                        I hold a Bachelor of Science (B.Sc.) degree, 
+                        which has equipped me with a solid foundation in computer science and problem-solving.</p>
+                    <p>While my Experience section dives into the technical fields I excel in (like frontend and backend development), 
+                        what truly drives me is the ability to solve real-world problems through technology. 
+                    <p>I love the challenge of breaking down complex issues into manageable pieces and crafting elegant, efficient solutions. 
+                        Whether it’s building intuitive user interfaces or optimizing backend systems, I
+                        ’m always eager to push the boundaries of what’s possible.</p>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/Tick.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Tick.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Tick.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Tick.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Flutter</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                      
+                       
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/Tick.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Tick.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Tick.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Dart</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/Tick.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C++</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/./assets/mock-up.webp" alt="project 1" class="project-image" />
+                </div>
+                <h2 class="experience-sub-title project-title">rupa</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Bluebill365/rupa.git'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Bluebill365/rupa.git'">
+                        Coming Soon
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/./assets/MotionOS.png" alt="project 2" class="project-image" />
+                </div>
+                <h2 class="experience-sub-title project-title">Motion OS</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                        Coming Soon
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                        Coming Soon
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/./assets/Screenshot from 2025-01-19 00-35-58.png" alt="project 3" class="project-image" />
+                </div>
+                <h2 class="experience-sub-title project-title">Shell Sync</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                        Coming Soon
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                        Coming Soon
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Feedback">
+        <p class="section__text__p1">Please fill out the form below, and I will carefully review your input to enhance my services.</p>
+        <h1 class="title">I Value Your Feedback</h1>
+            <div class="details-container">
+            <form class="dialog">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required label="Your Name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required label="Your Email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required label="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-color-1" label="Submit Contact Form">Send Feedback</button>
+            </form>
+            </div>
+    </section>
+
+    <section id="Contact">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon email-icon" />
+                <p><a href="mailto:paulkwadade365@gmail.com">paulkwadade365@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.webp" alt="linkedin icon" class="icon contact-icon" />
+                <p><a href="https://linkedin.com/">paulkwa</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <div class="nav-links">
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Feedback">Feedback</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+                </div>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Paul Kwadade. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
+
+<!--Portfolio website for Paulkwadade-->
