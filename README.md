@@ -18,11 +18,3 @@ Welcome to my personal portfolio! This repository contains the code for my portf
 ![About Me Section](images/about-me.png)
 ![Projects Section](images/projects.png)
 ![Contact Section](images/contact.png)
-
-## Live Demo
-Check out my portfolio live here: [Portfolio Link](https://your-portfolio-url.com)
-
-## Running Locally
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
