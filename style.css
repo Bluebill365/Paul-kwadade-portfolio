@@ -290,7 +290,7 @@ section{
 }
 
 .details-container{
-    padding: 1.5rem;
+    padding: 1.4rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -376,9 +376,9 @@ article .icon{
 }
 
 
-/* Message */
+/* Feedback */
 .contact-form {
-    max-width: 600px;
+    max-width: 500px;
     margin: 2rem auto;
     padding: 1rem;
     border: 1px solid #ccc;
@@ -398,9 +398,9 @@ article .icon{
 
 .form-group input,
 .form-group textarea {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
+    width: 99%;
+    padding: 0.4rem;
+    border: 1.5px solid #ccc;
     border-radius: 0.5rem;
     font-family: "Poppins", serif;
 }
@@ -439,7 +439,11 @@ article .icon{
 }
 
 .contact-info-container p{
-    font-size: larger;
+    font-size: medium;
+}
+
+.contact-info-container br{
+    font-size: medium;
 }
 
 .contact-icon{
