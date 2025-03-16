@@ -1,7 +1,7 @@
-//Chessburger button
+//humburger button
 function toggleMenu(){
     const menu = document.querySelector(".menu-links");
-    const icon = document.querySelector(".chessburger-icon");
+    const icon = document.querySelector(".humburger-icon");
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
@@ -17,7 +17,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
 
     // Simple validation
     if (!name || !email || !message) {
-        alert('Please fill out all fields.');
+    alert('Please fill out all fields.');
         return;
     }
 

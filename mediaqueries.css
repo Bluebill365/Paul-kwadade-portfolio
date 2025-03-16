@@ -13,7 +13,7 @@
     #main-nav{
         display: none;
     }
-    #chessburger-nav{
+    #humburger-nav{
         display: flex;
     }
     #experience, 
@@ -39,7 +39,7 @@
         height: 275px;
         margin: 0 auto 2rem;
     }
-    .About-containers{
+    .about-containers{
         margin-top: 0;
     }
 }
@@ -63,7 +63,7 @@
     height: fit-content;
     margin-bottom: 2rem;
    }
-   .About-containers, 
+   .about-containers, 
    .contact-info-upper-container, 
    .btn-container{
     flex-wrap: wrap;
